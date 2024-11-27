@@ -2,7 +2,7 @@ import subprocess
 import serial
 
 # Replace '/dev/ttyUSB0' with your serial port and 9600 with your baud rate
-ser = serial.Serial('COM6', 115200)  # Adjust baud rate if needed
+ser = serial.Serial('COM6', 115200)  # Adjust baud rate and com port if needed
 file_path = 'output.txt'
 
 # Function to remove characters from the end of the line
